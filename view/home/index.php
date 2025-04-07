@@ -8,12 +8,12 @@
     <div class="section no-pad-bot" id="index-banner">
         <div class="container">
             <br><br>
-            <h1 class="header center orange-text">Bienvenido</h1>
+            <h1 class="header center orange-text">Bienvenidx</h1>
             <div class="row center">
                 <h5 class="header col s12 light">esta es una pagina de prueba</h5>
             </div>
             <div class="row center">
-                <a href="?c=Products&m=index" id="download-button" class="btn-large waves-effect waves-light orange">Iniciar</a>
+                <a href="?c=Products&m=index" id="download-button" class="btn-large waves-effect waves-light orange">Ver Productos</a>
             </div>
             <br><br>
 

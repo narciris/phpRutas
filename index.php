@@ -4,6 +4,7 @@
 
 // se asegura de que la ruta del controladr exista, si no existe por defecto sera home
 $c = isset($_REQUEST['c']) ? $_REQUEST['c'] : 'Home';
+http://localhost/
 // se asegura de que la ruta del metodo exista, si no existe por defecto sera index
 $m = isset($_REQUEST['m']) ? $_REQUEST['m'] : 'index';
 $c =  $c . 'Controller'; // concatena controller
