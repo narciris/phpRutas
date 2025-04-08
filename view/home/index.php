@@ -19,5 +19,6 @@
 
         </div>
     </div>
+<body>
 
 <?php require_once 'layaout/Footer.php'?>

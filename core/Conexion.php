@@ -8,7 +8,7 @@ public static $pdo;
 
         if (!self::$pdo) {
             $host = 'localhost';
-            $db = 'peercash';
+            $db = 'peerCash';
             $user = 'root';
             $pass = '1234';
             $charset = 'utf8mb4';

@@ -2,7 +2,10 @@
 <head>
     <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
     <nav class="Lime Grey darken-3">
         <div class="nav-wrapper">
             <a href="?c=Home&m=index" class="brand-logo">Aplicacion</a>
@@ -14,4 +17,4 @@
         </div>
     </nav>
 
-</head>
+
