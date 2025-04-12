@@ -6,7 +6,18 @@ class Controller
     protected $models;
 
 
-    public function __construct(){}
+    public function __construct(){
+        if (session_status() == PHP_SESSION_NONE) {
+            session_start();
+        }
+    }
+
+    public function requireLogin()
+    {
+        if (!isset($_SESSION['user'])) {
+            $this->redirect('index.php?c=User&m=loginForm');
+        }
+    }
 
     public function loadModel($model)
     {

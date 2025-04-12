@@ -28,6 +28,7 @@ class Users extends Model
         } catch (PDOException $e) {
             return false;
         }
+
     }
 
     public function create($name, $lastname, $email,$password)
@@ -43,6 +44,23 @@ class Users extends Model
         }catch (PDOException $e){
             return false;
         }
+    }
+    public function login($email, $password)
+    {
+        try {
+            $stmt = $this->db->prepare("SELECT * FROM users WHERE email = :email");
+            $stmt->bindParam(':email',$email);
+            $stmt->execute();
+            $user= $stmt->fetch(PDO::FETCH_ASSOC);
+
+            if($user && password_verify($password, $user['password'])){
+               return $user;
+           }
+           return false;
+        }catch (PDOException $e){
+            return false;
+        }
+
     }
 
     public function delete($id )

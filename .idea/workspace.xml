@@ -5,16 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb27a7ae-460d-487b-9f4f-1a755b986204" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/view/users/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layaout/Nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/products/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/users/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ProductsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Conexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Conexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layaout/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/layaout/Header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layaout/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/layaout/Heade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/products/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/products/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/products/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/products/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/products/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/products/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/users/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/users/create.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/users/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/users/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/users/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/users/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/users/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/users/show.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -68,7 +79,9 @@
       <updated>1743982786878</updated>
       <workItem from="1743982812038" duration="7517000" />
       <workItem from="1744039021702" duration="8402000" />
-      <workItem from="1744059326634" duration="17880000" />
+      <workItem from="1744059326634" duration="20783000" />
+      <workItem from="1744338889070" duration="6249000" />
+      <workItem from="1744399097410" duration="8059000" />
     </task>
     <servers />
   </component>

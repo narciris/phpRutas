@@ -3,6 +3,11 @@ require_once __DIR__ . '/core/Conexion.php';
 require_once __DIR__ . '/core/Model.php';
 require_once __DIR__ . '/core/Controller.php';
 
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+
 // se asegura de que la ruta del controladr exista, si no existe por defecto sera home
 $c = isset($_REQUEST['c']) ? $_REQUEST['c'] : 'Home';
 http://localhost/
